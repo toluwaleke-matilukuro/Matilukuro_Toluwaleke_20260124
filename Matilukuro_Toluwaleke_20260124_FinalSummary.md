@@ -10,7 +10,7 @@ My case study is Smart Meter Management and Electricity Consumption Monitoring S
 
 I organized the relational design into 3 tables. Primary keys identify records, foreign keys preserve the links, and checks enforce the stated business rules. Recorded consumption in kWh must be greater than or equal to zero. The design entails three normalization stages:  ensuring non-key attributes depend on the whole primary key.First Normal Form(1NF) which ensures attributes contain atomic values and ensures repeating groups are eliminated, Second Normal Form (2NF) which requires non-key attributes to be dependent on the entire primary key, removing partial dependencies. The Third Normal Form (3NF) removes transitive dependencies  The normalization examples show the sample data at 1NF, 2NF and 3NF. All 9 deliberately invalid inserts were rejected without changing the valid sample rows.
 
-![Smart Meter Management and Electricity Consumption Monitoring System ER diagram](images/Matilukuro_Toluwaleke_301906386_ERDiagram.png)
+![Smart Meter Management and Electricity Consumption Monitoring System ER diagram](images/Matilukuro_Toluwaleke_20260124_ERDiagram.png)
 
 Figure 1. Tables, keys and relationships. PK: primary key; FK: foreign key; UK: unique value.
 
@@ -31,7 +31,7 @@ MongoDB validation was used to enforce the document structure and data types, wh
 
 ## Repository and evidence
 
-https://github.com/toluwaleke-matilukuro/Matilukuro_Toluwaleke_301906386
+https://github.com/toluwaleke-matilukuro/Matilukuro_Toluwaleke_20260124
 
 The portfolio folders contain the SQL and JavaScript, explanations, query plans, result tables and screenshots.
 
